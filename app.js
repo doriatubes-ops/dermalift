@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-slide]').forEach(b=>b.addEventListener('click',()=>{const c=b.parentElement.previousElementSibling;c.scrollBy({left:Number(b.dataset.slide)*c.clientWidth*.85,behavior:'smooth'})}));
