@@ -1,0 +1,7 @@
+DERMALIFT PRO — NOVO DESIGN
+
+Envie index.html, style.css, app.js, tracking.js e a pasta assets para a raiz do repositório GitHub. Preserve os nomes e a estrutura das pastas.
+
+O arquivo de prévia separado permite revisar a página e assistir à VSL sem instalar nada. A prévia não dispara o Pixel. O projeto inclui o rastreamento original.
+
+Esta versão ainda não foi publicada.
