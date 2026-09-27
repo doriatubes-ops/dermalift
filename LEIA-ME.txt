@@ -1,7 +1,38 @@
-DERMALIFT PRO — NOVO DESIGN
+DERMALIFT PRO — PERFORMANCE V3
 
-Envie index.html, style.css, app.js, tracking.js e a pasta assets para a raiz do repositório GitHub. Preserve os nomes e a estrutura das pastas.
+PUBLICAÇÃO NO GITHUB / VERCEL
+Envie TODO o conteúdo deste ZIP para a raiz do repositório:
+index.html, style.css, app.js, tracking.js e a pasta assets.
+Mantenha os arquivos da pasta assets dentro dela. Não envie o ZIP sem extrair.
+Esta versão usa novos nomes de mídia. Atualizar somente index.html não basta.
+O site em produção não foi alterado por esta entrega.
 
-O arquivo de prévia separado permite revisar a página e assistir à VSL sem instalar nada. A prévia não dispara o Pixel. O projeto inclui o rastreamento original.
+ALTERAÇÃO DOS CHECKOUTS
+No index.html, procure data-checkout="1", data-checkout="3" e data-checkout="6".
+Troque apenas o href do kit correspondente. Preserve os parâmetros da sua campanha.
+O tracking.js adiciona parâmetros de atribuição, sem sobrescrever os que já existem.
 
-Esta versão ainda não foi publicada.
+VSL
+Nova apresentação de aproximadamente 1min51s, narrada com voz sintética em português.
+Usa as imagens originais do produto. Legendas com sincronização aproximada por trecho.
+Arquivo: assets/apresentacao-v3.mp4. A VSL anterior permanece na versão antiga.
+
+PONTOS PARA CONFIRMAR
+A consulta automatizada à Braip foi bloqueada (HTTP 403). Não foi possível confirmar preços,
+frete, parcelamento ou garantia adicional. Quantidades atualizadas conforme a imagem fornecida pelo usuário. A página remete ao checkout.
+Avaliações e garantia adicional estão preparadas, mas ocultas até haver comprovação.
+Os textos de privacidade, termos e aviso descrevem esta implementação; confirme-os com
+os responsáveis pelo negócio, assim como atendimento e identificação empresarial.
+Não há teste real de compra nem validação da atribuição no painel da Meta/Braip.
+
+REVISÃO TÉCNICA
+Layout verificado em 360, 390, 768 e 1440 pixels; sem rolagem horizontal.
+Links internos, imagens, diálogos e reprodução da VSL verificados em navegador.
+Meta Pixel 836214192069484 e evento PageView preservados; chamadas externas interceptadas
+nos testes. Parâmetros de campanha propagados aos 3 checkouts, preservando pl, ck e af.
+A VSL só é carregada ao ser acionada. Não há vídeo em autoplay.
+Não foram publicadas vendas fictícias, avaliações inventadas ou promessas de resultado.
+
+PRÉVIA HTML
+O arquivo separado DermaLift-PRO-V3.html incorpora mídias e estilos para revisão local.
+O rastreio foi desativado APENAS nessa prévia. Publique o conteúdo do ZIP, não a prévia.
